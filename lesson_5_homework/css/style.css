@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+@font-face {
+	font-family: "Geometria";
+	src: url("../fonts/Geometria/Geometria.woff2") format("woff2"), url("../fonts/Geometria/Geometria.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Geometria";
+	src: url("../fonts/Geometria/Geometria-Medium.woff2") format("woff2"), url("../fonts/Geometria/Geometria-Medium.woff") format("woff");
+	font-display: swap;
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Geometria";
+	src: url("../fonts/Geometria/Geometria-Bold.woff2") format("woff2"), url("../fonts/Geometria/Geometria-Bold.woff") format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Geometria";
+	src: url("../fonts/Geometria/Geometria-Italic.woff2") format("woff2"), url("../fonts/Geometria/Geometria-Italic.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: italic;
+}
+
+body{
+	font-family:"Montserrat", serif;
+	color: #000;
+}
+
+.title {
+	font-family: "Geometria", serif;
+	font-size: 20px;
+	font-style: italic;
+	font-weight: 700;
+	color: #ff6347;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.header {
+	font-size: 24px;
+	font-style: normal;
+	color: rgba(128, 0, 0, 0.5);
+	text-align: right;
+}
+
+.h2 {
+	
+}
+
+.history {
+
+}
+
+.history p {
+	margin: 20px 40px 20px 40px;
+}
+
+.foundation {
+	text-transform: capitalize;
+	line-height: 1.5;
+}
+
+.foundation .text{
+	white-space: nowrap;
+}
+
+.introduction p {
+	word-spacing: 30px;
+	font-family:"Montserrat", serif;
+	font-style: normal;
+	font-weight: 700;
+}
+
+.introduction span{
+	color:#0000ff;
+	font-weight: 700;
+}
+
+.introduction span,
+.content-header {
+	text-decoration: underline;
+}
+
+.topics h3 + p {
+	text-decoration: overline;
+	color: rgb(226, 8, 8);
+}
+
+.text {
+	font-family:"Montserrat", serif;
+	font-style: normal;
+	font-weight: 400;
+	color: #000;
+	text-align: justify;
+	text-indent: 20px;
+}
+
+.line-through {
+	text-decoration: line-through;
+	color:rgb(64, 34, 146);
+	text-transform: lowercase;
+}
+
+.content {
+	line-height: 20px;
+	margin: 40px 50px 40px;
+	background-color: rgb(255, 163, 163);
+	width: 200px;
+}
+
+.content-header {
+	font-family:"Geometria", serif;
+	font-weight: 700;
+	color: #000;
+}
+
+.list-header {
+}
+
+a{
+	font-family: "Geometria", serif;
+	font-style: italic;
+	font-weight: 700;
+	color: #00318d;
+}
+
+.history {
+}
+
+.quote {
+	box-sizing: border-box;
+	
+}
+
+.word-spacing {
+	font-family:"Montserrat", serif;
+	font-weight: 700;
+	font-style: italic;
+	word-spacing: 120px;
+	color: #00318d;
+	width: 50%;
+}
+
+.photo {
+}
+
+.photo img ~ p {
+	text-shadow: 2px 2px 5px rgb(226, 0, 207);
+}
+
+.photo-mihnovsky {
+	padding: 20px 30px 20px 50px;
+}
+
+.photo-bilenkyi {
+	padding: 20px 30px 20px 50px;
+}
+
+.closing {
+}
+
+.reviews {
+}
+
+.value {
+	margin: 50px 50px;
+}
+
+.link {
+}
+
+.link > p {
+	text-align: center;
+	margin: 20px 0px;
+}
+
+footer {
+	text-align: center;
+	letter-spacing: 15px;
+	margin: 20px;
+}
