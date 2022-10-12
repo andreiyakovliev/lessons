@@ -1,0 +1,105 @@
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato/Lato-Regular.woff2") format("woff2"), url("../fonts/Lato/Lato-Regular.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato/Lato-Bold.woff2") format("woff2"), url("../fonts/Lato/Lato-Bold.woff") format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato/Lato-Black.woff2") format("woff2"), url("../fonts/Lato/Lato-Black.woff") format("woff");
+	font-display: swap;
+	font-weight: 900;
+	font-style: normal;
+}
+
+body{
+	font-family: 'Lato', sans-serif;
+	color: #1E212C;
+	max-width: 810px;
+	margin: 152px 278px 212px;
+
+}
+
+.main-text {
+	font-family: 'Lato', sans-serif;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 130%;
+	text-align: center;
+	color: #1E212C;
+	opacity: 0.7;
+	margin: 0px 0px 92px 0px;
+}
+.img {
+	max-width: 810px;
+	margin: 0px 0px 60px 0px;
+	box-shadow: 18px 13px 28px 0px rgba(0,0,0,0.62);
+}
+
+.content {
+}
+
+.text {
+	font-family: 'Lato';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 160%;
+	color: #424551;
+	text-align: left;
+}
+
+.bold {
+	font-family: 'Lato', sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 150%;
+	color: #1E212C;
+	text-align: left;
+	margin: 0px 0px 24px 0px;
+}
+
+.paragraph-2 {
+	margin: 0px 0px 25.6px 0px;
+	
+}
+
+.paragraph-3 {
+	margin: 0px 0px 24px 0px;
+}
+
+.paragraph-4 {
+	margin: 0px 0px 48px 0px;
+}
+
+.paragraph-5 {
+	font-family: 'Lato', sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 150%;
+	color: #1E212C;
+	margin: 0px 0px 48px 0px;
+	overflow: auto;
+	max-width: 752px;
+	max-height: 60px;
+}
+
+.paragraph-6 {
+	margin: 0px 0px 24px 0px;
+}
+.paragraph-7 {
+	visibility: hidden;
+}
