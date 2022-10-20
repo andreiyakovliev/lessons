@@ -1,0 +1,94 @@
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato/Lato-Regular.woff2") format("woff2"), url("../fonts/Lato/Lato-Regular.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato/Lato-Bold.woff2") format("woff2"), url("../fonts/Lato/Lato-Bold.woff") format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato/Lato-Black.woff2") format("woff2"), url("../fonts/Lato/Lato-Black.woff") format("woff");
+	font-display: swap;
+	font-weight: 900;
+	font-style: normal;
+}
+
+[class*="__container"]{
+	max-width: 810px;
+	margin: 0 auto;
+}
+
+body{
+	max-width: 810px;
+	margin: 0 auto;
+	background: url("../img/cloud.jpg") fixed;
+}
+
+.container {
+	margin: 152px 0px 152px 0px;
+}
+
+.header {
+	margin: 0px 0 92px 0;
+}
+
+.header__container {
+	font-family: 'Lato', sans-serif;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 130%;
+	align-items: center;
+	color: #1E212C;
+	text-align: center;
+}
+
+.image {
+	margin: 0 0 60px 0;
+}
+
+.image__container {
+	height: 360px;
+	margin: 0 auto;
+	background: url("../img/gerb.png") 15%/200px no-repeat, url("../img/rod.jpg") 70%/contain no-repeat #1e212c73;
+	color:#dfdb07;
+	padding: 15px;
+}
+
+.description {
+	background-color: #fff;
+	padding: 15px;
+}
+
+.description__container {
+	
+}
+
+.text {
+	font-family: 'Lato', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 160%;
+	color: #424551;
+	margin: 0px 0px 24px 0px;
+	text-align: justify;
+}
+
+.bold {
+	font-family: 'Lato', sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 150%;
+	color: #1E212C;
+}
