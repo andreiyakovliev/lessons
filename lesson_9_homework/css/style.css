@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:regular,700,900&display=swap");
+
+
+body{
+	font-family: "Lato";
+	color: #424551;
+	padding: 20px 0px 20px 0px;
+}
+
+[class*="__container"]{
+	max-width: 1230px;
+	margin: 0 auto;
+}
+
+ul li:first-child{
+	color:#e90000;
+}
+
+ul li:nth-child(2) {
+	color:#00a316;
+}
+
+ul li:last-child{
+	color:#2b00e9;
+}
+
+.header {
+}
+
+.page {
+}
+
+.page__container {
+}
+
+.page__description {
+	margin-bottom: 20px;
+}
+
+.page__picture {
+	max-width: 100%;
+}
+
+.footer {
+}
