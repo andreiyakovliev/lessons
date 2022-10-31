@@ -35,7 +35,7 @@
 .car__model img{
 	position: absolute;
 	top: 430px;
-	right: 590px;
+	right: 50%;
 	max-height: 270px;
 }
 
