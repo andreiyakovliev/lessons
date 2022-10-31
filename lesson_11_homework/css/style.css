@@ -23,7 +23,7 @@
 .car__background:hover {
 	background: url('../img/bg_night.jpg') 0 0/cover no-repeat;
 	height: 721px;
-	transition: all 0.5s ease 1s;
+	transition: all 3s ease 1s;
 }
 
 
@@ -35,7 +35,7 @@
 .car__model img{
 	position: absolute;
 	top: 430px;
-	right: 50%;
+	right: 590px;
 	max-height: 270px;
 }
 
