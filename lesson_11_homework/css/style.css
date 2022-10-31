@@ -13,6 +13,7 @@
 	
 }
 .car__container {
+	position: relative;
 }
 
 .car__background {
@@ -28,14 +29,12 @@
 
 
 .car__model {
-	position: relative;
-	top: 75%;
-	left: 50%;
 }
 
 .car__model img{
 	position: absolute;
-	transform: translate(-50%, -50%);
+	top: 430px;
+	right: 590px;
 	max-height: 270px;
 }
 
