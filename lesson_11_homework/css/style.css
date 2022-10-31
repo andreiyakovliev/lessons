@@ -29,13 +29,13 @@
 
 .car__model {
 	position: relative;
-	
+	top: 75%;
+	left: 50%;
 }
 
 .car__model img{
 	position: absolute;
-	top: 430px;
-	right: 590px;
+	transform: translate(-50%, -50%);
 	max-height: 270px;
 }
 
