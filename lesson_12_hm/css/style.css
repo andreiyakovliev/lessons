@@ -39,7 +39,7 @@
 }
 
 .translate__item {
-	background: url('img/smile_bg.jpg') 0 0/auto 100% no-repeat;
+	background: url('../../img/smile_bg.jpg') 0 0/auto 100% no-repeat;
 
 }
 
@@ -65,7 +65,7 @@
 }
 
 .scale__item {
-	background: url('/img/smile_bg.jpg') 0 0/auto 100% no-repeat;
+	background: url('../img/smile_bg.jpg') 0 0/auto 100% no-repeat;
 }
 
 .scale__item img {
@@ -90,7 +90,7 @@
 }
 
 .rotate__item {
-	background: url('/img/smile_bg.jpg') 0 0/auto 100% no-repeat;
+	background: url('../img/smile_bg.jpg') 0 0/auto 100% no-repeat;
 }
 
 .rotate__item img {
@@ -112,7 +112,7 @@
 }
 
 .matrix__item {
-	background: url('/img/smile_bg.jpg') 0 0/auto 100% no-repeat;
+	background: url('../img/smile_bg.jpg') 0 0/auto 100% no-repeat;
 }
 
 .matrix__item img{
@@ -134,7 +134,7 @@
 }
 
 .origin__item {
-	background: url('/img/smile_bg.jpg') 0 0/auto 100% no-repeat;
+	background: url('../img/smile_bg.jpg') 0 0/auto 100% no-repeat;
 }
 
 .origin__item img{
@@ -156,7 +156,7 @@
 }
 
 .perspective__item {
-	background: url('/img/smile_bg.jpg') 0 0/auto 100% no-repeat;
+	background: url('../img/smile_bg.jpg') 0 0/auto 100% no-repeat;
 }
 
 .perspective__item img{
@@ -178,7 +178,7 @@
 }
 
 .translate3d__item {
-	background: url('/img/smile_bg.jpg') 0 0/auto 100% no-repeat;
+	background: url('../img/smile_bg.jpg') 0 0/auto 100% no-repeat;
 }
 
 .translate3d__item img{
@@ -204,7 +204,7 @@
 }
 
 .style__item {
-	background: url('/img/smile_bg.jpg') 0 0/auto 100% no-repeat;
+	background: url('../img/smile_bg.jpg') 0 0/auto 100% no-repeat;
 }
 
 .style__item img{
