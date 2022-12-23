@@ -1,0 +1,183 @@
+[class*="__container"]{
+	max-width: 1230px;
+	margin: 0 auto;
+}
+
+body {
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 20px;
+	font-weight: 700;
+	text-align: center;
+}
+
+.wrapper{
+	overflow: scroll;
+	min-height: 100%;
+	min-width: 100%;
+	position: relative;
+	
+}
+
+.page {
+	position: relative;
+	margin: 0 auto;
+}
+.page__block {
+	
+}
+.circle {
+	position: relative;
+}
+
+.text {
+	padding: 15px;
+}
+
+.circle__item {
+	content: " ";
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	background-color: #fffd6d;
+	position: relative;
+	top: 50px;
+	left: 50%;
+	animation-name: circle;
+	animation-duration: 5s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-delay: 1s;
+	animation-fill-mode: forwards;
+	transform: translate(-50%, -50%);
+}
+
+
+
+.circle__item:hover {
+	animation-play-state: paused;
+}
+
+@keyframes circle {
+	0% {
+		left: 0%;
+	}
+	50%{
+		width: 200px;
+		height: 100px;
+		border-radius: 100px / 50px;
+		background-color: #2a47a5;
+	}
+
+	100% {
+		width: 1px;
+		left: 100%;
+	}
+}
+
+.cub {
+	
+}
+
+.cub__item {
+	content: " ";
+	width: 300px;
+	height: 100px;
+	background-color: #fffd6d;
+	border-radius: 10px;
+	position: relative;
+	top: 50px;
+	left: 50%;
+	transition-duration: 500ms;
+	transition-property: all;
+	transition-delay: 500ms;
+	transition-timing-function: cubic-bezier(0.75, 0.99, 0.21, 0.01);
+	transform: translate(-50%, -50%);
+}
+
+.cub__item:hover {
+	top: 52px;
+	padding: 0px 50px;
+	box-shadow: 0 7px 0px #fffd6d;
+	background-color: #2a47a5;
+}
+
+.button__container {
+	display: block;
+	
+}
+
+.homework__container {
+}
+
+.homework__transition {
+}
+
+.button__text {
+}
+
+.button__item {
+	height: 50px;
+	width: 300px;
+	background-color: #2a47a5;
+	margin: 0 auto;
+	
+}
+
+.button__hover {
+	opacity: 0;
+	background-color: #fffd6d;
+	transition-delay: 1s;
+	transition-duration: 3s;
+}
+
+.button__item:hover .button__hover{
+	opacity: 1;
+}
+
+.homework__animation {
+}
+.button__text {
+
+}
+
+.text__item {
+	animation-name: rot;
+	animation-duration: 5s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	animation-play-state: running;
+}
+
+h2 {
+	padding-bottom: 10px;
+}
+
+.text__item p{
+	font-weight: 500;
+	font-size: 18px;
+	
+}
+
+.text__hover {
+}
+
+@keyframes rot {
+	0% {
+		opacity: 0;
+	  	transform: rotateY(0deg);
+	}
+
+	33.333% {
+		opacity: 0.7;
+	}
+
+	66.333% {
+		opacity: 1;
+	}
+
+	100% {
+		opacity: 0;
+		transform: rotateY(360deg);
+	}
+ }
