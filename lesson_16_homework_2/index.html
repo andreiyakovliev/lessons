@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Lesson 16</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header"></header>
+		<main class="page">
+			<section class="page__contact contact-block">
+				<div class="contact-block__container">
+					<form action="https://jsonplaceholder.typicode.com/posts" method="POST" class="contact-block__form form">
+						<div class="form-contact__media">
+							<img src="../img/contacts/illustration.svg " alt="illustration" class="form-contact__image">
+						</div>
+						<div class="form-contact__forms">
+							<div class="form-contact__header header-text">
+								<div class="header-text__title">
+									Any questions?
+								</div>
+								<div class="header-text__text">
+									Drop us a line
+								</div>
+							</div>
+							<div class="form-contact__form">
+								<div class="form-contact__line form__line">
+									<label for="name" class="form__label">
+										First Name*
+									</label>
+									<input type="text" name="name" placeholder="Your first name" autocomplete="name" required
+										size="36" tabindex="1" class="form-contact__input form__input">
+								</div>
+								<div class="form-contact__line form__line">
+									<label for="lastname" class="form__label">
+										Last Name*
+									</label>
+									<input type="text" name="lastname" placeholder="Your last name" autocomplete="family-name"
+										required size="36" tabindex="2" class="form-contact__input form__input">
+								</div>
+								<div class="form-contact__line form__line">
+									<label for="email" class="form__label">
+										Email*
+									</label>
+									<input type="email" name="email" placeholder="Your working email" autocomplete="email"
+										required size="36" tabindex="3" class="form-contact__input form__input">
+								</div>
+								<div class="form-contact__line form__line">
+									<label for="phone" class="form__label">
+										Phone
+									</label>
+									<input type="tel" name="phone" placeholder="Your phone number" autocomplete="tel" size="36"
+										tabindex="4" class="form-contact__input form__input">
+								</div>
+							</div>
+							<div class="form-contact__textarea">
+								<div class="form-contact__line form__line">
+									<label for="textarea" class="form__label">
+										Message*
+									</label>
+									<textarea name="textarea" rows="4" autocomplete="off" required tabindex="5"
+										placeholder="Your message" class="form__area form__input"></textarea>
+								</div>
+							</div>
+							<div class="form-contact__action">
+								<div class="form-contact__checkbox checkbox">
+									<input id="checkbox" autocomplete="off" type="checkbox" value="yes" name="checkbox" required
+										tabindex="6" class="checkbox__input">
+									<label for="checkbox" class="checkbox__label"><span class="checkbox__text">I agree to
+											receive communications from Createx Online School</span></label>
+								</div>
+								<button type="submit" class="form-contact__button button">
+									<span>Send messageSend messageSend messageSend messageSend messageSend messageSend
+										messageSend messageSend messageSend messageSend messageSend message</span>
+								</button>
+							</div>
+						</div>
+					</form>
+				</div>
+			</section>
+		</main>
+		<footer class="footer"></footer>
+	</div>
+</body>
+
+</html>

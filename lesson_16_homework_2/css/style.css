@@ -1,0 +1,228 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:regular,700,900&display=swap");
+
+[class*="__container"]{
+	max-width: 1260px;
+	margin: 0 auto;
+	padding: 0px 15px;
+}
+
+body{
+	/* Значення за замовченням */
+	font-family: "Lato";
+	color: #424551;
+	background-color: #FFFFFF;
+	/* font-size: 16px; */
+}
+
+.wrapper{
+	overflow: hidden;
+	min-height: 100%;
+	position: relative;
+
+	display: flex;
+	flex-direction: column;
+}
+.wrapper > main{
+	flex-grow: 1;
+}
+/* ============================ */
+
+.page {
+}
+.page__contact {
+}
+.contact-block {
+	padding: 90px 0px 180px 0px;
+}
+.contact-block__container {
+}.contact-block__body {
+}
+.body-contact {
+}
+
+
+.contact-block__form {
+}
+.form {
+	display: flex;
+}
+.form-contact__media {
+	padding-right: 105px;
+	flex: 0 1 42.68%;
+	align-self: center;
+}
+.form-contact__image{
+	max-width: 100%;
+}
+.form-contact__forms {
+	flex: 0 1 57.32%;
+}
+.form-contact__header {
+}
+
+.form-contact__header:not(:last-child) {
+	margin-bottom: 40px;	
+}
+
+.header-text {
+	color: #1E212C;
+}
+
+.header-text__title {
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 150%;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+.header-text__text {
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 130%;
+}
+.form-contact__form {
+	display: flex;
+	flex-flow: row wrap;
+	align-content: flex-start;
+	row-gap: 24px;
+	column-gap: 25px;
+}
+
+.form-contact__form:not(:last-child) {
+	margin-bottom: 24px;
+}
+
+.form-contact__line {
+	/* width: 340px; */
+	
+}
+.form__line {
+	display: flex;
+	flex-direction: column;
+	align-self: flex-end;
+	flex-shrink: 1;
+}
+.form__label {
+	line-height: 160%;
+}
+
+.form__label:not(:last-child) {
+	margin-bottom: 8px;
+}
+
+.form-contact__input {
+	padding: 13px 16px 13px 16px;
+	
+}
+.form__input {
+	display: inline-block;
+	width: 100%;
+	border: 1px solid #D7DADD;
+	border-radius: 4px;
+	flex-shrink: 1;
+}
+
+.form__input::placeholder {
+	line-height: 160%;
+	color: #9A9CA5;
+
+}
+
+.form-contact__textarea {
+}
+
+.form-contact__textarea:not(:last-child) {
+	margin-bottom: 48px;
+}
+
+.form__area {
+	padding: 13px 16px 13px 16px;
+	width: 100%;
+	resize: none;
+	text-align: justify;
+}
+
+/* Forms with checkbox and button */
+
+.form-contact__action {
+	display: flex;
+	flex-flow: row wrap;
+	row-gap: 25px;
+}
+
+/* Checkbox */
+
+.form-contact__checkbox {
+	position: relative;
+	flex: 0 1 50%;
+}
+
+
+
+.checkbox {
+	padding-right: 50px;
+}
+
+.checkbox__input {
+	position: absolute;
+	width: 0;
+	height: 0;
+	opacity: 0;
+}
+
+.checkbox__input:checked + .checkbox__label::before {
+	background: #FF3F3A url('../img/contacts/icons/check.svg') center / 70% no-repeat;
+}
+.checkbox__label {
+	cursor: pointer;
+	display: inline-flex;
+	gap: 15px;
+}
+.checkbox__label::before{
+	content:"";
+	position: relative;
+	top: 5px;
+	flex: 0 0 16px;
+	width: 16px;
+	height: 16px;
+	background: #FF3F3A;
+	border: 1px solid #FF3F3A;
+	border-radius: 3px;
+}
+.checkbox__text {
+	align-self: center;
+	line-height: 160%;
+}
+
+/* Button */
+
+.form-contact__button {
+	flex: 0 1 50%;
+	max-height: 52px;
+}
+
+.button {
+	background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+	border-radius: 4px;
+	font-weight: 700;
+	line-height: 1.25;
+	letter-spacing: 0.5px;
+	color: #FFFFFF;
+	display: inline-block;
+	padding: 15px 39px;
+	border: 1px solid #FF3F3A;
+	position: relative;
+	transition: all 0.3s ease 0s;
+	z-index: 2;
+}
+
+.button span {
+	z-index: 3;
+	position: relative;
+}
+
+.button:hover {
+	background: transparent;
+	color: #FF3F3A;
+}

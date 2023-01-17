@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Lesson 16</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<div class="page">
+			<div class="page__container">
+				<form class="form" action="https://jsonplaceholder.typicode.com/posts" method="POST">
+					<div class="form__line">
+						<label class="form__label" for="name">Як вас звуть?</label>
+						<input type="text" id="name" name="name" placeholder="Введіть своє ім'я" required tabindex="1"
+							class="form__input">
+					</div>
+					<div class="form__line">
+						<label class="form__label" for="sername">Яке ваше призвище?</label>
+						<input type="text" name="sername" placeholder="Введіть своє призвище" tabindex="2"
+							class="form__input">
+					</div>
+					<div class="form__line">
+						<label for="email" class="form__label">Введіть ваш email</label>
+						<input type="email" name="email" placeholder="Введіть свій email" required class="form__input">
+						<input type="hidden" name="tokken" value="FnjsadnjkjKFDlJ312" class="form__input">
+					</div>
+					<div class="form__line">
+						<label for="color" class="form__label">Оберіть колір</label>
+						<input type="color" name="color" placeholder="Оберіть колір" value="#b30000" class="form__input">
+					</div>
+					<div class="form__line">
+						<input type="checkbox" value="yes" name="checkbox" required autocomplete="off"
+							class="form__input form__input--chb">
+						<label for="checkbox" class="form__label">Є авто</label>
+					</div>
+					<div class="form__line">
+						<div class="form__title">
+							З якого ви міста?
+						</div>
+						<div class="form__radio">
+							<input type="radio" name="city" id="city-01" value="kyiv" checked autocomplete="off"
+								class="form__input form__input__radio">
+							<label for="city" class="form__label">
+								Київ
+							</label>
+						</div>
+						<div class="form__radio">
+							<input type="radio" name="city" id="city-02" value="odesa" autocomplete="off"
+								class="form__input form__input__radio">
+							<label for="city" class="form__label">
+								Одеса
+							</label>
+						</div>
+						<div class="form__radio">
+							<input type="radio" name="city" id="city-03" value="lviv" autocomplete="off"
+								class="form__input form__input__radio">
+							<label for="city" class="form__label">
+								Львів
+							</label>
+						</div>
+					</div>
+					<div class="form__line">
+						<label for="file" class="form__label">Завантажити файл</label>
+						<input type="file" multiple accept="image/*" class="form__input">
+					</div>
+					<div class="form__line">
+						<div class="form__title">
+							Оберіть фрукт
+						</div>
+						<select multiple name="list">
+							<option value="banan">Банан</option>
+							<option value="orange">Апельсин</option>
+							<option value="kiwi">Ківі</option>
+							<option value="mango">Манго</option>
+						</select>
+					</div>
+					<div class="form__line">
+						<button class="form__button" type="submit">
+							Відправити
+						</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
